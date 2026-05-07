@@ -1,0 +1,5 @@
+from tabulate import tabulate
+title=["Name","age","department"]
+data=[["raj",21,"cse"],["naresh",19,"ece"],["suresh",23,"civil"],["mahesh",21,"it"]]
+res=tabulate(data,headers=title,tablefmt='fancy_grid')
+print(res)
